@@ -85,7 +85,7 @@ const File = () => {
       {isSaved && <div className="saved">저장되었습니다.</div>}{" "}
       <button className="goback" onClick={() => history("/")}>
         홈으로가기
-      </button>{" "}
+      </button>
       (Esc And ctrl+backspace)
       <button onClick={() => write()}>저장하기</button> (Esc And ctrl+s)
     </div>
